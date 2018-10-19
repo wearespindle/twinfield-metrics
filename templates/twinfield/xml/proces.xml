@@ -1,0 +1,3 @@
+<twin:ProcessXmlDocument>
+    <twin:xmlRequest>$xml</twin:xmlRequest>
+</twin:ProcessXmlDocument>

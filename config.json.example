@@ -1,0 +1,15 @@
+{
+    "twinfield": {
+        "user": "",
+        "pass": "",
+        "organisation": "",
+        "office": ""
+    },
+    "influxdb": {
+        "host": "localhost",
+        "port": 8086,
+        "user": "",
+        "pass": "",
+        "database": "twinfield"
+    }
+}

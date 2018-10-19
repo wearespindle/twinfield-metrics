@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:twin="http://www.twinfield.com/">
+    <soapenv:Header>
+        <Header xmlns="http://www.twinfield.com/">
+            <SessionID>$sessionid</SessionID>
+        </Header>
+    </soapenv:Header>
+    <soapenv:Body>
+        $xml
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XmlSchema-instance" xmlns:xsd="http://www.w3.org/2001/XmlSchema">
+    <soap:Header>
+        <Header MyAttribute="" xmlns="http://www.twinfield.com/">
+            <SessionID>$sessionid</SessionID>
+        </Header>
+    </soap:Header>
+    <soap:Body>
+        <Abandon xmlns="http://www.twinfield.com/" />
+    </soap:Body>
+</soap:Envelope>

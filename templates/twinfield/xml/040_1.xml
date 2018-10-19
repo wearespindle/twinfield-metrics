@@ -1,0 +1,30 @@
+<columns code="040_1">
+<column id="3">
+<field>fin.trs.head.yearperiod</field>
+<label>Jaar/periode (JJJJ/PP)</label>
+<visible>false</visible>
+<ask>true</ask>
+<operator>between</operator>
+<from>$year/01</from>
+<to>$year/12</to>
+<finderparam/>
+</column>
+<column id="4">
+<field>fin.trs.head.status</field>
+<label>Status</label>
+<visible>true</visible>
+<ask>true</ask>
+<operator>equal</operator>
+<from>normal</from>
+<to></to>
+<finderparam></finderparam></column>
+<column id="5">
+<field>fin.trs.line.dim1</field>
+<label>Grootboekrek.</label>
+<visible>true</visible>
+<ask>true</ask>
+<operator>between</operator>
+<from>4000</from>
+<to>9999</to>
+<finderparam></finderparam></column>
+</columns>
